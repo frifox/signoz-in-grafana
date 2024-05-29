@@ -1,4 +1,5 @@
 # Signoz Traces in Grafana
+- Add signoz clickhouse db as a Data Source
 - Your Dashboard > Add > Visualization
   - Visualizaton Type: Traces
   - Editor Type: SQL Editor
