@@ -34,7 +34,7 @@ select
         x -> map(
             'fields',
             arrayMap(
-                x -> map('key',x.1 , 'value', x.2),
+                x -> map('key', x.1 , 'value', x.2),
                 JSONExtractKeysAndValues(JSONExtractString(x), 'attributeMap', 'String')
             )
         ),
